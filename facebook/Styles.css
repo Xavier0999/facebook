@@ -1,0 +1,108 @@
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    position: relative;
+    background-color: #292929;
+}
+
+img {
+    position: absolute;
+    clip-path: circle();
+    right: 45px;
+    height: 35px;
+    bottom: 15px;
+    
+}
+
+.lupa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 165px;
+    top: 40px;
+    border: none;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    background-color: #1C1C1C;
+    fill: white;
+}
+
+h1 {
+    position: relative;
+    color: white;
+    display: flex;
+    right: -10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 12px;
+
+}
+
+.sms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 130px;
+    bottom: 12px;
+    border: none;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    background-color: #1C1C1C;
+    fill: white;
+}
+
+.bell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 90px;
+    bottom: 12px;
+    border: none;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    background-color: #1C1C1C;
+    fill: white;
+}
+
+.flecha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 40px;
+    bottom: 1px;
+    top: 55px;
+    border: none;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: #1C1C1C;
+    fill: white;
+}
+
+span {
+    display: flex;
+    color: white;
+    position: absolute;
+    right: -9px;
+    top: -9px;
+    border: solid 1px;
+    border-radius: 100px;
+    padding-right: 10px;
+    width: 12px;
+    height: 15px;
+    border-color: red;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+}
